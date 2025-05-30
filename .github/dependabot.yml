@@ -22,6 +22,8 @@ updates:
     ignore:
       - dependency-name: "com.jayway.jsonpath:json-path"
         versions: [ ">= 2.8.0" ]
+      - dependency-name: "commons-beanutils:commons-beanutils"
+        versions: [ "1.11.0"]
     # update-types:
     #   - "version-update:semver-major"
     #   - "version-update:semver-minor"
