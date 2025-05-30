@@ -19,6 +19,9 @@ updates:
       interval: "daily"
     allow:
       - dependency-type: "all"
+    ignore:
+      - dependency-name: "com.jayway.jsonpath"
+      - versions: ">= 2.8.0"
     # update-types:
     #   - "version-update:semver-major"
     #   - "version-update:semver-minor"
