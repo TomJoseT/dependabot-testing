@@ -20,7 +20,7 @@ updates:
     allow:
       - dependency-type: "all"
     ignore:
-      - dependency-name: "com.jayway.jsonpath"
+      - dependency-name: "com.jayway.jsonpath:json-path"
         versions: [ ">= 2.8.0" ]
     # update-types:
     #   - "version-update:semver-major"
