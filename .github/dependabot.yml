@@ -18,7 +18,7 @@ updates:
     groups:
       vulnerable-dependecies:
         applies-to: version-updates
-        pattern:
+        patterns:
           - "*"
     schedule:
       interval: "daily"
